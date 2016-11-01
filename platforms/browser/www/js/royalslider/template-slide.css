@@ -1,0 +1,54 @@
+.royalSlider .rsContent {
+	overflow:visible;
+}
+
+.royalSlider .rsContent img {
+	opacity: 0.8;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.royalSlider .rsActiveSlide img {
+	opacity: 1;
+}
+
+.rsABlock { 
+	position: absolute;
+	top: 15px;
+	left: 0;
+	padding: 0 10px 0 100px;
+	background-color: rgba(235, 235, 235, 0.6);
+}
+
+.rsRelated {
+	position: absolute;
+	bottom: 5px;
+	right: 0;	
+}
+
+.rsContent .arrow {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid #FFF;
+	border-top: 30px solid transparent;
+	position: absolute;
+	top:195px;
+	left: 0;
+}
+
+.rsMinW,
+.rsMinW .rsOverflow,
+.rsMinW .rsSlide,
+.rsMinW .rsVideoFrameHolder,
+.rsMinW .rsThumbs {
+	background: #FFF;
+	color: #666;
+}
+
+.rsMinW .rsArrowLeft { right: 20px; bottom: 7px; }
+.rsMinW .rsArrowRight { right: 90px; bottom: 7px; }
+
+.rsMinW .rsBullets { right: 0; bottom: 30px; }

@@ -1,0 +1,49 @@
+.royalSlider {
+	width:740px;
+	height:450px;
+	background: #FFF;
+}
+
+.royalSlider .rsContent img {
+	opacity: 0.8;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.royalSlider .rsActiveSlide img {
+	opacity: 1;
+}
+
+.rsABlock { 
+	top:50px;
+	left:280px;
+	right:0;
+	bottom:auto;
+}
+
+.rsABlock h1 { 
+	color:#FFF;
+	background:#9dd5d0;
+	font-size:36px;
+}
+
+.rsABlock span {
+	background:#FFF; 
+	background-color:rgba(255,255,255,.8); 
+	color:#333; 
+	font-size:14px;
+}
+.rsMinW,
+.rsMinW .rsOverflow,
+.rsMinW .rsSlide,
+.rsMinW .rsVideoFrameHolder,
+.rsMinW .rsThumbs {
+	background: #FFF;
+	color: #666;
+}
+
+.rsMinW .rsArrowLeft { right: 820px; bottom: 7px; }
+.rsMinW .rsArrowRight { right: 790px; bottom: 7px; }
+
+.rsMinW .rsBullets { right: 860px; }
